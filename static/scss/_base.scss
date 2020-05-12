@@ -1,19 +1,22 @@
 // -------------------------------------------------- Import Fonts //
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Montserrat:wght@500;800&display=swap');
 
 
 // ----------------------------------------------------- Variables //
 
 // - Fonts - //
-$title-text: 'Montserrat', sans-serif;
+$heading-text: 'Montserrat', sans-serif;
 
 // - Colors - //
+$white: #ffffff;
 $granite-grey: #646464;
 $cyan-blue-azure: #4b8bbe;
 $lapis-lazuli: #306998;
 $shandy: #ffe873;
 $sunglow: #ffd43b;
+
+$qqq: #424242;
 
 
 $nav-height: 100px;
@@ -36,6 +39,10 @@ html {
 
 // ---------------------------------------------------------- Temp //
 
-.qqq {
-    min-height: 200px;
-}
+// .container-fluid {
+//     background-color: grey;
+// }
+
+// .container {
+//     background-color: white;
+// }
