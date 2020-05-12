@@ -1,10 +1,22 @@
+// -------------------------------------------------- Import Fonts //
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+
 // ----------------------------------------------------- Variables //
 
-$nav-height: 60px;
+// - Fonts - //
+$title-text: 'Montserrat', sans-serif;
+
+// - Colors - //
+$granite-grey: #646464;
+$cyan-blue-azure: #4b8bbe;
+$lapis-lazuli: #306998;
+$shandy: #ffe873;
+$sunglow: #ffd43b;
 
 
-// --------------------------------------------------------- Fonts //
-
+$nav-height: 100px;
 
 
 // -------------------------------------------------------- Mixins //
@@ -15,7 +27,7 @@ $nav-height: 60px;
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 
 // -------------------------------------------------------- Resets //
