@@ -1,1 +1,28 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+html {
+  scroll-behavior: smooth;
+}
+
+.qqq {
+  min-height: 200px;
+}
+
+.navbar ul li {
+  padding: 0 0.2rem;
+}
+
+.navbar ul i {
+  color: grey;
+  font-size: .4rem;
+  margin-top: 18px;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.nav-spacer {
+  height: 60px;
+}
+/*# sourceMappingURL=main.css.map */
