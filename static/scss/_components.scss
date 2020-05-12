@@ -17,6 +17,14 @@
     border: none;
     padding: 0;
     font-size: 2rem;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.navbar-collapse {
+    text-align: right;
 }
 
 .nav-spacer {
