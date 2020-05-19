@@ -31,6 +31,16 @@ html {
   height: 100px;
 }
 
+.label {
+  font-size: .7rem;
+  border: 2px solid #000000;
+  padding: .3rem .5rem;
+  margin-right: .6rem;
+  border-radius: .2rem;
+  -webkit-box-shadow: 4px 4px #646464;
+          box-shadow: 4px 4px #646464;
+}
+
 .header-white {
   color: #ffffff;
 }
@@ -49,6 +59,46 @@ html {
 
 .bg-grey {
   background-color: #424242;
+}
+
+.bg-py-yellow {
+  background-color: #ffe873;
+}
+
+.bg-blue {
+  background-color: #4b8bbe;
+}
+
+.bg-html-red {
+  background-color: #e44d26;
+}
+
+.bg-sass-pink {
+  background-color: #CD6799;
+}
+
+.bg-js-yellow {
+  background-color: #f7df1e;
+}
+
+.bg-blue {
+  background-color: #0769AD;
+}
+
+.bg-jquery-blue {
+  background-color: #0769AD;
+}
+
+.bg-bootstrap-purple {
+  background-color: #7952b3;
+}
+
+.bg-django-green {
+  background-color: #092e20;
+}
+
+.bg-postgresql-blue {
+  background-color: #336791;
 }
 
 #hey {
@@ -75,7 +125,7 @@ h1 {
 }
 
 #about-me {
-  padding: 5rem 0 8rem;
+  padding: 8rem 0 10rem;
 }
 
 h2 {
@@ -88,5 +138,22 @@ h2 {
 
 .me-pic {
   border-bottom: 1px solid black;
+}
+
+#my-work {
+  padding: 8rem 0 10rem;
+}
+
+.project-image {
+  max-width: 100%;
+  border: 2px solid #646464;
+}
+
+#skills {
+  padding: 8rem 0 10rem;
+}
+
+#say-hi {
+  padding: 8rem 0 10rem;
 }
 /*# sourceMappingURL=main.css.map */

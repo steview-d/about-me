@@ -30,3 +30,15 @@
 .nav-spacer {
     height: $nav-height;
 }
+
+
+// -------------------------------------------------------- labels //
+
+.label {
+    font-size: .7rem;
+    border: 2px solid $black;
+    padding: .3rem .5rem;
+    margin-right: .6rem;
+    border-radius: .2rem;
+    box-shadow: 4px 4px $granite-grey;
+}

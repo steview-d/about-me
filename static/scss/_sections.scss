@@ -20,6 +20,46 @@
     background-color: $qqq;
 }
 
+.bg-py-yellow {
+    background-color: $shandy;
+}
+
+.bg-blue {
+    background-color: $cyan-blue-azure;
+}
+
+.bg-html-red {
+    background-color: #e44d26;
+}
+
+.bg-sass-pink {
+    background-color: #CD6799;
+}
+
+.bg-js-yellow {
+    background-color: #f7df1e;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+
+.bg-jquery-blue {
+    background-color: #0769AD;
+}
+
+.bg-bootstrap-purple {
+    background-color: $purple;
+}
+
+.bg-django-green {
+    background-color: #092e20;
+}
+
+.bg-postgresql-blue {
+    background-color: #336791;
+}
+
 // ----------------------------------------------------------- Hey //
 
 #hey {
@@ -52,7 +92,7 @@ h1 {
 // ------------------------------------------------------ About Me //
 
 #about-me {
-    padding: 5rem 0 8rem;
+    padding: 8rem 0 10rem;
 }
 
 h2 {
@@ -66,4 +106,32 @@ h2 {
 
 .me-pic {
     border-bottom: 1px solid black;
+}
+
+
+// ------------------------------------------------------- My Work //
+
+#my-work {
+    padding: 8rem 0 10rem;
+}
+
+.project-image {
+    // height: 300px;
+    // width: auto;
+    max-width: 100%;
+    border: 2px solid $granite-grey;
+}
+
+
+// -------------------------------------------------------- Skills //
+
+#skills {
+    padding: 8rem 0 10rem;
+}
+
+
+// -------------------------------------------------------- Say Hi //
+
+#say-hi {
+    padding: 8rem 0 10rem;
 }
