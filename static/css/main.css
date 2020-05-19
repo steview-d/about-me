@@ -6,7 +6,20 @@ html {
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: 5rem;
+  font-size: 3.2rem;
+  word-wrap: break-word;
+}
+
+@media (min-width: 380px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 5rem;
+  }
 }
 
 h2 {
@@ -144,13 +157,61 @@ h3 {
   border-bottom: 1px solid black;
 }
 
-#my-work {
+#projects {
   padding: 8rem 0 10rem;
 }
 
 .project-image {
   max-width: 100%;
   border: 2px solid #646464;
+}
+
+.gh-label {
+  font-size: .7rem;
+  border: 1px solid #000000;
+  padding: .3rem .5rem;
+  margin-right: .6rem;
+  border-radius: .2rem;
+}
+
+@-webkit-keyframes buttonPressDown {
+  from {
+    -webkit-box-shadow: 3px 3px #646464;
+            box-shadow: 3px 3px #646464;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  to {
+    -webkit-box-shadow: 1px 1px #646464;
+            box-shadow: 1px 1px #646464;
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+}
+
+@keyframes buttonPressDown {
+  from {
+    -webkit-box-shadow: 3px 3px #646464;
+            box-shadow: 3px 3px #646464;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  to {
+    -webkit-box-shadow: 1px 1px #646464;
+            box-shadow: 1px 1px #646464;
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+}
+
+.site-label {
+  font-size: .7rem;
+  border: 2px solid #000000;
+  padding: .3rem .5rem;
+  margin-right: .6rem;
+  border-radius: .2rem;
+  -webkit-box-shadow: 4px 4px #646464;
+          box-shadow: 4px 4px #646464;
 }
 
 #skills {

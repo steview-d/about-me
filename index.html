@@ -39,7 +39,7 @@
                 </li>
                 <i class="fas fa-stop d-none d-md-block"></i>
                 <li class="nav-item">
-                    <a class="nav-link" href="#my-work">My Work</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <i class="fas fa-stop d-none d-md-block"></i>
                 <li class="nav-item">
@@ -97,35 +97,48 @@
     <!-- <div class="my-5">&nbsp;</div>
     <div class="my-5">&nbsp;</div> -->
 
-    <!-- My Work -->
-    <div id="my-work" class="container-fluid bg-py-yellow">
+    <!-- Projects -->
+    <div id="projects" class="container-fluid bg-py-yellow">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>My Work</h2>
+                    <h2>Projects</h2>
 
                     <div class="row">
-                        <div class="col-12 col-md-5">
-                            <img src="static\img\bookmarks_tn.png" alt="bookmarks-app"
-                                class="qd-block qmx-auto project-image qimg-responsive">
-                        </div>
-                        <div class="col-12 col-md-7 qbg-white">
-                            <h3>Links</h3>
+                        <div class="col-12 col-lg-6 order-lg-last">
+                            <h3>Links - Bookmarking App</h3>
                             <div class="mb-3">
                                 <span class="label bg-html-red text-white">HTML</span>
                                 <span class="label bg-sass-pink text-white">SASS</span>
                                 <span class="label bg-js-yellow">JavaScript</span>
                                 <span class="label bg-py-blue text-white">Python</span>
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-4">
                                 <span class="label bg-django-green text-white">Django</span>
                                 <span class="label bg-postgresql-blue text-white">PostgreSQL</span>
                                 <span class="label bg-jquery-blue text-white">jQuery</span>
                                 <span class="label bg-bootstrap-purple text-white">Bootstrap</span>
                             </div>
                             <hr>
-                            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab eius pariatur assumenda
-                                asperiores distinctio aperiam doloribus voluptatibus minima, ratione beatae?</div>
+                            <p>An app which allows users to save the URL's of any website for easy reference. Built
+                                using the Django framework and hosted on Heroku, users can add, edit, delete, and
+                                organise their bookmark collection using a simple and intuitive UI.</p>
+                            <p>The app has built in scraping to automatically pull site metadata and icons which makes
+                                getting detailed information for the URL as simple as clicking one button.</p>
+                            <p>There is also a dedicated Chrome Browser extension that makes adding bookmarks even
+                                easier.</p>
+                            <hr>
+                            <div class="mt-4">
+                                <a class="btn gh-label bg-dark text-white" href="https://github.com/steview-d/bookmarks"
+                                    target="_blank" role="button"><i class="fab fa-github fa-3x"></i></a>
+                                <span>&nbsp;</span>
+                                <a class="btn gh-label bg-dark text-white" href="http://links-sw.herokuapp.com/"
+                                    target="_blank" role="button"><i class="fas fa-globe fa-3x"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <img src="static\img\links_ss.png" alt="bookmarks-app"
+                                class="d-block mx-auto project-image my-5 my-lg-0">
                         </div>
                     </div>
                 </div>

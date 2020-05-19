@@ -35,9 +35,9 @@
 }
 
 
-// ------------------------------------------------------- My Work //
+// ------------------------------------------------------ Projects //
 
-#my-work {
+#projects {
     padding: 8rem 0 10rem;
 }
 
@@ -46,8 +46,45 @@
     // width: auto;
     max-width: 100%;
     border: 2px solid $granite-grey;
+    
 }
 
+.gh-label {
+    font-size: .7rem;
+    border: 1px solid $black;
+    padding: .3rem .5rem;
+    margin-right: .6rem;
+    border-radius: .2rem;
+    // box-shadow: 3px 3px $granite-grey;
+
+    &:hover {
+        // box-shadow: none;
+        // transform:translate(4px,4px);
+        // animation: buttonPressDown .2s;
+        // animation-fill-mode: forwards;
+        // font-weight: 700;
+    }
+}
+
+@keyframes buttonPressDown {
+    from {
+        box-shadow: 3px 3px $granite-grey;
+        transform:translate(0)
+    };
+    to {
+        box-shadow: 1px 1px $granite-grey;
+        transform:translate(2px,2px)
+    };
+}
+
+.site-label {
+    font-size: .7rem;
+    border: 2px solid $black;
+    padding: .3rem .5rem;
+    margin-right: .6rem;
+    border-radius: .2rem;
+    box-shadow: 4px 4px $granite-grey;
+}
 
 // -------------------------------------------------------- Skills //
 
