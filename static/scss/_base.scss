@@ -22,12 +22,14 @@ $sunglow: #ffd43b;
 
 // - Colors - Other Tech //
 $html-red: #e44d26;
-$sass-pink: #CD6799;
+$css-blue: #264de4;
+$sass-pink: #cd6799;
 $js-yellow: #f7df1e;
-$jquery-blue: #0769AD;
+$jquery-blue: #0769ad;
 $bootstrap-purple: #7952b3;
 $django-green: #092e20;
 $postgresql-blue: #336791;
+$mongodb-green: #3fA037;
 
 // - Other - //
 $nav-height: 100px;
@@ -35,6 +37,9 @@ $nav-height: 100px;
 
 // -------------------------------------------------------- Mixins //
 
+@mixin section-padding {
+    padding: 8rem 0 10rem;
+}
 
 
 // --------------------------------------------------------- Setup //

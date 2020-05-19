@@ -70,8 +70,12 @@ h3 {
   background-color: #e44d26;
 }
 
+.bg-css-blue {
+  background-color: #264de4;
+}
+
 .bg-sass-pink {
-  background-color: #CD6799;
+  background-color: #cd6799;
 }
 
 .bg-js-yellow {
@@ -79,7 +83,7 @@ h3 {
 }
 
 .bg-jquery-blue {
-  background-color: #0769AD;
+  background-color: #0769ad;
 }
 
 .bg-bootstrap-purple {
@@ -92,6 +96,14 @@ h3 {
 
 .bg-postgresql-blue {
   background-color: #336791;
+}
+
+.bg-mongodb-green {
+  background-color: #3fA037;
+}
+
+.bg-django-green {
+  background-color: #092e20;
 }
 
 .navbar ul li {
@@ -159,6 +171,11 @@ h3 {
 
 #projects {
   padding: 8rem 0 10rem;
+}
+
+.project-block {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .project-image {

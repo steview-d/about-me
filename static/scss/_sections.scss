@@ -27,7 +27,7 @@
 // ------------------------------------------------------ About Me //
 
 #about-me {
-    padding: 8rem 0 10rem;
+    @include section-padding;
 }
 
 .me-pic {
@@ -38,7 +38,12 @@
 // ------------------------------------------------------ Projects //
 
 #projects {
-    padding: 8rem 0 10rem;
+    @include section-padding;
+}
+
+.project-block {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .project-image {
@@ -55,15 +60,6 @@
     padding: .3rem .5rem;
     margin-right: .6rem;
     border-radius: .2rem;
-    // box-shadow: 3px 3px $granite-grey;
-
-    &:hover {
-        // box-shadow: none;
-        // transform:translate(4px,4px);
-        // animation: buttonPressDown .2s;
-        // animation-fill-mode: forwards;
-        // font-weight: 700;
-    }
 }
 
 @keyframes buttonPressDown {
