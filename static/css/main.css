@@ -86,6 +86,10 @@ h3 {
   background-color: #0769ad;
 }
 
+.bg-d3-orange {
+  background-color: #faad1e;
+}
+
 .bg-bootstrap-purple {
   background-color: #7952b3;
 }
@@ -180,6 +184,9 @@ h3 {
 
 .project-image {
   max-width: 100%;
+}
+
+.image-border {
   border: 2px solid #646464;
 }
 

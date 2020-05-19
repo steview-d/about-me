@@ -47,11 +47,13 @@
 }
 
 .project-image {
-    // height: 300px;
-    // width: auto;
     max-width: 100%;
-    border: 2px solid $granite-grey;
     
+    
+}
+
+.image-border {
+    border: 2px solid $granite-grey;
 }
 
 .gh-label {
