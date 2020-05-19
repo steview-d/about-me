@@ -8,24 +8,28 @@
 // - Fonts - //
 $heading-text: 'Montserrat', sans-serif;
 
-// - Colors - //
+// - Colors - Standard //
 $white: #ffffff;
 $black: #000000;
+$dark-grey: #424242;
+
+// - Colors - Python //
 $granite-grey: #646464;
 $cyan-blue-azure: #4b8bbe;
 $lapis-lazuli: #306998;
 $shandy: #ffe873;
 $sunglow: #ffd43b;
 
-$red: red;
-$pink: pink;
-$yellow: #f7df1e;
-$blue: #0769AD;
-$purple: #7952b3;
+// - Colors - Other Tech //
+$html-red: #e44d26;
+$sass-pink: #CD6799;
+$js-yellow: #f7df1e;
+$jquery-blue: #0769AD;
+$bootstrap-purple: #7952b3;
+$django-green: #092e20;
+$postgresql-blue: #336791;
 
-$qqq: #424242;
-
-
+// - Other - //
 $nav-height: 100px;
 
 
@@ -42,7 +46,27 @@ html {
 
 // -------------------------------------------------------- Resets //
 
+h1 {
+    font-family: $heading-text;
+    font-weight: 800;
+    font-size: 5rem
+}
 
+h2 {
+    font-family: $heading-text;
+    font-weight: 800;
+    font-size: 3rem;
+    color: $granite-grey;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-family: $heading-text;
+    font-weight: 800;
+    font-size: 2rem;
+    color: $granite-grey;
+    margin-bottom: 1rem;
+}
 
 // ---------------------------------------------------------- Temp //
 

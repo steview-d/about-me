@@ -3,6 +3,84 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  color: #646464;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #646464;
+  margin-bottom: 1rem;
+}
+
+.header-white {
+  color: #ffffff;
+}
+
+.header-grey {
+  color: #646464;
+}
+
+.header-blue {
+  color: #4b8bbe;
+}
+
+.header-yellow {
+  color: #ffe873;
+}
+
+.bg-grey {
+  background-color: #424242;
+}
+
+.bg-py-yellow {
+  background-color: #ffe873;
+}
+
+.bg-py-blue {
+  background-color: #4b8bbe;
+}
+
+.bg-html-red {
+  background-color: #e44d26;
+}
+
+.bg-sass-pink {
+  background-color: #CD6799;
+}
+
+.bg-js-yellow {
+  background-color: #f7df1e;
+}
+
+.bg-jquery-blue {
+  background-color: #0769AD;
+}
+
+.bg-bootstrap-purple {
+  background-color: #7952b3;
+}
+
+.bg-django-green {
+  background-color: #092e20;
+}
+
+.bg-postgresql-blue {
+  background-color: #336791;
+}
+
 .navbar ul li {
   padding: 0 0.2rem;
 }
@@ -41,74 +119,8 @@ html {
           box-shadow: 4px 4px #646464;
 }
 
-.header-white {
-  color: #ffffff;
-}
-
-.header-grey {
-  color: #646464;
-}
-
-.header-blue {
-  color: #4b8bbe;
-}
-
-.header-yellow {
-  color: #ffe873;
-}
-
-.bg-grey {
-  background-color: #424242;
-}
-
-.bg-py-yellow {
-  background-color: #ffe873;
-}
-
-.bg-blue {
-  background-color: #4b8bbe;
-}
-
-.bg-html-red {
-  background-color: #e44d26;
-}
-
-.bg-sass-pink {
-  background-color: #CD6799;
-}
-
-.bg-js-yellow {
-  background-color: #f7df1e;
-}
-
-.bg-blue {
-  background-color: #0769AD;
-}
-
-.bg-jquery-blue {
-  background-color: #0769AD;
-}
-
-.bg-bootstrap-purple {
-  background-color: #7952b3;
-}
-
-.bg-django-green {
-  background-color: #092e20;
-}
-
-.bg-postgresql-blue {
-  background-color: #336791;
-}
-
 #hey {
   padding: 5rem 0 8rem;
-}
-
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  font-size: 5rem;
 }
 
 .gradient-text {
@@ -126,14 +138,6 @@ h1 {
 
 #about-me {
   padding: 8rem 0 10rem;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 800;
-  font-size: 3rem;
-  color: #646464;
-  margin-bottom: 1rem;
 }
 
 .me-pic {

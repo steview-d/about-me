@@ -1,75 +1,10 @@
 // -------------------------------------------------- All Sections //
 
-.header-white {
-    color: $white;
-}
-
-.header-grey {
-    color: $granite-grey;
-}
-
-.header-blue {
-    color: $cyan-blue-azure;
-}
-
-.header-yellow {
-    color: $shandy;
-}
-
-.bg-grey {
-    background-color: $qqq;
-}
-
-.bg-py-yellow {
-    background-color: $shandy;
-}
-
-.bg-blue {
-    background-color: $cyan-blue-azure;
-}
-
-.bg-html-red {
-    background-color: #e44d26;
-}
-
-.bg-sass-pink {
-    background-color: #CD6799;
-}
-
-.bg-js-yellow {
-    background-color: #f7df1e;
-}
-
-.bg-blue {
-    background-color: $blue;
-}
-
-.bg-jquery-blue {
-    background-color: #0769AD;
-}
-
-.bg-bootstrap-purple {
-    background-color: $purple;
-}
-
-.bg-django-green {
-    background-color: #092e20;
-}
-
-.bg-postgresql-blue {
-    background-color: #336791;
-}
 
 // ----------------------------------------------------------- Hey //
 
 #hey {
     padding: 5rem 0 8rem;
-}
-
-h1 {
-    font-family: $heading-text;
-    font-weight: 800;
-    font-size: 5rem
 }
 
 .gradient-text {
@@ -93,15 +28,6 @@ h1 {
 
 #about-me {
     padding: 8rem 0 10rem;
-}
-
-h2 {
-    font-family: $heading-text;
-    font-weight: 800;
-    font-size: 3rem;
-    color: $granite-grey;
-
-    margin-bottom: 1rem;
 }
 
 .me-pic {
