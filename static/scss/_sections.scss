@@ -1,5 +1,14 @@
 // -------------------------------------------------- All Sections //
 
+.inline-link {
+    color: $granite-grey;
+    transition: .3s;
+
+    &:hover {
+        text-decoration: none;
+        color: $black;
+    }
+}
 
 // ----------------------------------------------------------- Hey //
 
@@ -43,7 +52,7 @@
 
 .project-block {
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    // margin-bottom: 5rem;
 }
 
 .project-image {
@@ -56,23 +65,12 @@
     border: 2px solid $granite-grey;
 }
 
-.gh-label {
+.square-fa-button {
     font-size: .7rem;
     border: 1px solid $black;
     padding: .3rem .5rem;
     margin-right: .6rem;
     border-radius: .2rem;
-}
-
-@keyframes buttonPressDown {
-    from {
-        box-shadow: 3px 3px $granite-grey;
-        transform:translate(0)
-    };
-    to {
-        box-shadow: 1px 1px $granite-grey;
-        transform:translate(2px,2px)
-    };
 }
 
 .site-label {
@@ -83,6 +81,7 @@
     border-radius: .2rem;
     box-shadow: 4px 4px $granite-grey;
 }
+
 
 // -------------------------------------------------------- Skills //
 

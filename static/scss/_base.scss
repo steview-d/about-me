@@ -49,6 +49,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.hidden {
+    display: none;
+}
+
 
 // -------------------------------------------------------- Resets //
 
@@ -82,12 +86,3 @@ h3 {
     margin-bottom: 1rem;
 }
 
-// ---------------------------------------------------------- Temp //
-
-// .container-fluid {
-//     background-color: grey;
-// }
-
-// .container {
-//     background-color: white;
-// }

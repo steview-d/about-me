@@ -3,6 +3,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.hidden {
+  display: none;
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
@@ -148,6 +152,17 @@ h3 {
           box-shadow: 4px 4px #646464;
 }
 
+.inline-link {
+  color: #646464;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.inline-link:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
 #hey {
   padding: 5rem 0 8rem;
 }
@@ -179,7 +194,6 @@ h3 {
 
 .project-block {
   margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 .project-image {
@@ -190,42 +204,12 @@ h3 {
   border: 2px solid #646464;
 }
 
-.gh-label {
+.square-fa-button {
   font-size: .7rem;
   border: 1px solid #000000;
   padding: .3rem .5rem;
   margin-right: .6rem;
   border-radius: .2rem;
-}
-
-@-webkit-keyframes buttonPressDown {
-  from {
-    -webkit-box-shadow: 3px 3px #646464;
-            box-shadow: 3px 3px #646464;
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-  to {
-    -webkit-box-shadow: 1px 1px #646464;
-            box-shadow: 1px 1px #646464;
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
-  }
-}
-
-@keyframes buttonPressDown {
-  from {
-    -webkit-box-shadow: 3px 3px #646464;
-            box-shadow: 3px 3px #646464;
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-  to {
-    -webkit-box-shadow: 1px 1px #646464;
-            box-shadow: 1px 1px #646464;
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
-  }
 }
 
 .site-label {
