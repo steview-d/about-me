@@ -49,6 +49,19 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: rgba(250, 250, 250, 0.9);
+}
+
+a {
+    color: $black;
+
+    &:hover {
+        text-decoration: none;
+        color: $black;
+    }
+}
+
 .hidden {
     display: none;
 }
