@@ -2,7 +2,7 @@
 
 .inline-link {
     color: $granite-grey;
-    transition: .3s;
+    transition: 0.3s;
 
     &:hover {
         text-decoration: none;
@@ -19,19 +19,18 @@
 .gradient-text {
     // Fallback Background Color
     background-color: $cyan-blue-azure;
-    
+
     // Gradient
     background-image: linear-gradient(90deg, $cyan-blue-azure, $shandy);
-    
+
     background-size: 100%;
     background-repeat: repeat;
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 }
-
 
 // ------------------------------------------------------ About Me //
 
@@ -42,7 +41,6 @@
 .me-pic {
     border-bottom: 1px solid black;
 }
-
 
 // ------------------------------------------------------ Projects //
 
@@ -57,8 +55,6 @@
 
 .project-image {
     max-width: 100%;
-    
-    
 }
 
 .image-border {
@@ -66,22 +62,21 @@
 }
 
 .square-fa-button {
-    font-size: .7rem;
+    font-size: 0.7rem;
     border: 1px solid $black;
-    padding: .3rem .5rem;
-    margin-right: .6rem;
-    border-radius: .2rem;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.6rem;
+    border-radius: 0.2rem;
 }
 
 .site-label {
-    font-size: .7rem;
+    font-size: 0.7rem;
     border: 2px solid $black;
-    padding: .3rem .5rem;
-    margin-right: .6rem;
-    border-radius: .2rem;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.6rem;
+    border-radius: 0.2rem;
     box-shadow: 4px 4px $granite-grey;
 }
-
 
 // -------------------------------------------------------- Skills //
 
@@ -89,6 +84,35 @@
     padding: 8rem 0 10rem;
 }
 
+.tech-logo {
+    display: inline-block;
+    background-color: $white;
+    border-radius: 50%;
+    border: 3px solid $dark-grey;
+    padding: .8rem;
+
+    @media (min-width: 400px) {
+        border: 4px solid $dark-grey;
+        padding: 1rem;
+    }
+
+    @media (min-width: 768px) {
+        border: 6px solid $dark-grey;
+        padding: 1.2rem;
+    }
+
+    img {
+        height: 30px;
+
+        @media (min-width: 400px) {
+            height: 40px;
+        }
+
+        @media (min-width: 768px) {
+            height: 50px;
+        }
+    }
+}
 
 // -------------------------------------------------------- Say Hi //
 
@@ -96,9 +120,12 @@
     padding: 8rem 0 10rem;
 }
 
-.qqq {
+.email-box {
     height: 240px;
-    border-radius: .3rem;
-    color: $white;
-    background-color: $dark-grey
+    border-radius: 0.3rem;
+
+    @media (min-width: 992px) {
+        color: $white;
+        background-color: $dark-grey;
+    }
 }

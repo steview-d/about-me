@@ -7,7 +7,6 @@ $(document).ready(function () {
 
     // - See More Projects Button - //
     $("#btn-see-more").on("click", function () {
-        console.log("uuyui");
         $("#hidden-projects").slideToggle(700, function () {
             $("#btn-see-more").toggleHtml(
                 'See More Projects',
