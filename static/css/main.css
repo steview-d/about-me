@@ -71,7 +71,7 @@ h3 {
   color: #ffe873;
 }
 
-.bg-grey {
+.bg-dark-grey {
   background-color: #424242;
 }
 
@@ -161,8 +161,8 @@ h3 {
   padding: .3rem .5rem;
   margin-right: .6rem;
   border-radius: .2rem;
-  -webkit-box-shadow: 4px 4px #646464;
-          box-shadow: 4px 4px #646464;
+  -webkit-box-shadow: 4px 4px #222222;
+          box-shadow: 4px 4px #222222;
 }
 
 .inline-link {
@@ -239,25 +239,38 @@ h3 {
   padding: 8rem 0 10rem;
 }
 
+.logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .tech-logo {
   display: inline-block;
   background-color: #ffffff;
-  border-radius: 50%;
   border: 3px solid #424242;
-  padding: .8rem;
+  padding: 0.6rem;
+  margin: 0.5rem;
 }
 
 @media (min-width: 400px) {
   .tech-logo {
     border: 4px solid #424242;
-    padding: 1rem;
+    padding: 0.8rem;
   }
 }
 
 @media (min-width: 768px) {
   .tech-logo {
-    border: 6px solid #424242;
-    padding: 1.2rem;
+    border: 5px solid #424242;
+    padding: 1rem;
   }
 }
 
@@ -274,6 +287,12 @@ h3 {
 @media (min-width: 768px) {
   .tech-logo img {
     height: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .flex-line-break {
+    width: 100%;
   }
 }
 

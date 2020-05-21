@@ -84,21 +84,29 @@
     padding: 8rem 0 10rem;
 }
 
+.logo-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 .tech-logo {
     display: inline-block;
     background-color: $white;
-    border-radius: 50%;
     border: 3px solid $dark-grey;
-    padding: .8rem;
+    padding: 0.6rem;
+    // margin-bottom: 1rem;
+    // margin-right: 1rem;
+    margin: 0.5rem;
 
     @media (min-width: 400px) {
         border: 4px solid $dark-grey;
-        padding: 1rem;
+        padding: 0.8rem;
     }
 
     @media (min-width: 768px) {
-        border: 6px solid $dark-grey;
-        padding: 1.2rem;
+        border: 5px solid $dark-grey;
+        padding: 1rem;
     }
 
     img {
@@ -113,6 +121,14 @@
         }
     }
 }
+
+.flex-line-break {
+    @media (max-width: 767px){
+        width: 100%;
+    }
+    
+}
+
 
 // -------------------------------------------------------- Say Hi //
 
