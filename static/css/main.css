@@ -133,7 +133,7 @@ h3 {
 
 .navbar ul i {
   color: grey;
-  font-size: .4rem;
+  font-size: 0.4rem;
   margin-top: 18px;
 }
 
@@ -155,12 +155,28 @@ h3 {
   height: 100px;
 }
 
+footer {
+  padding: .6rem;
+}
+
+footer i {
+  font-size: 1.6rem;
+  margin: .4rem .6rem;
+  color: #ffd43b;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+footer i:hover {
+  color: #646464;
+}
+
 .label {
-  font-size: .7rem;
+  font-size: 0.7rem;
   border: 2px solid #000000;
-  padding: .3rem .5rem;
-  margin-right: .6rem;
-  border-radius: .2rem;
+  padding: 0.3rem 0.5rem;
+  margin-right: 0.6rem;
+  border-radius: 0.2rem;
   -webkit-box-shadow: 4px 4px #222222;
           box-shadow: 4px 4px #222222;
 }

@@ -8,7 +8,7 @@
 
     i {
         color: grey;
-        font-size: .4rem;
+        font-size: 0.4rem;
         margin-top: 18px;
     }
 }
@@ -31,14 +31,30 @@
     height: $nav-height;
 }
 
+// -------------------------------------------------------- footer //
+
+footer {
+    padding: .6rem;
+
+    i {
+        font-size: 1.6rem;
+        margin: .4rem .6rem;
+        color: $sunglow;
+        transition: .4s;
+
+        &:hover {
+            color: $granite-grey;
+        }
+    }
+}
 
 // -------------------------------------------------------- labels //
 
 .label {
-    font-size: .7rem;
+    font-size: 0.7rem;
     border: 2px solid $black;
-    padding: .3rem .5rem;
-    margin-right: .6rem;
-    border-radius: .2rem;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.6rem;
+    border-radius: 0.2rem;
     box-shadow: 4px 4px #222222;
 }
