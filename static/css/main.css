@@ -177,19 +177,35 @@ footer i:hover {
   padding: 0.3rem 0.5rem;
   margin-right: 0.6rem;
   border-radius: 0.2rem;
-  -webkit-box-shadow: 4px 4px #222222;
-          box-shadow: 4px 4px #222222;
+  -webkit-box-shadow: 4px 4px #424242;
+          box-shadow: 4px 4px #424242;
+}
+
+.btn-see-more {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.btn-see-more:hover {
+  background-color: #ffffff;
+  color: #4b8bbe;
+}
+
+.hr-light {
+  border-top: 1px solid rgba(250, 250, 250, 0.4);
 }
 
 .inline-link {
-  color: #646464;
+  color: #dcdcdc;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .inline-link:hover {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 
 #hey {
@@ -211,6 +227,16 @@ footer i:hover {
 
 #about-me {
   padding: 8rem 0 10rem;
+}
+
+#about-me h2 {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #about-me h2 {
+    text-align: left;
+  }
 }
 
 .picture-position {
@@ -287,6 +313,15 @@ footer i:hover {
   padding: 8rem 0 10rem;
 }
 
+#projects h2, #projects h3, #projects p {
+  color: #ffffff;
+}
+
+#projects .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .project-block {
   margin-top: 5rem;
 }
@@ -296,7 +331,7 @@ footer i:hover {
 }
 
 .image-border {
-  border: 2px solid #646464;
+  border: 2px solid #424242;
 }
 
 .square-fa-button {

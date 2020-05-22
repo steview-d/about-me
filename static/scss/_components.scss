@@ -56,5 +56,25 @@ footer {
     padding: 0.3rem 0.5rem;
     margin-right: 0.6rem;
     border-radius: 0.2rem;
-    box-shadow: 4px 4px #222222;
+    box-shadow: 4px 4px $dark-grey;
+}
+
+// ------------------------------------------------------- buttons //
+
+.btn-see-more {
+    color: $white;
+    border: 1px solid $white;
+    transition: .4s;
+
+    &:hover {
+        background-color: $white;
+        color: $cyan-blue-azure;
+    }
+}
+
+
+// --------------------------------------------------------- misc  //
+
+.hr-light {
+    border-top: 1px solid rgba(250, 250, 250, 0.4);
 }
