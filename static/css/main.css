@@ -213,17 +213,62 @@ footer i:hover {
   padding: 8rem 0 10rem;
 }
 
+.picture-position {
+  text-align: center;
+  margin-top: -3rem;
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+}
+
+@media (min-width: 400px) {
+  .picture-position {
+    margin-top: -2rem;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
+
+@media (min-width: 576px) {
+  .picture-position {
+    margin-top: -1rem;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+@media (min-width: 992px) {
+  .picture-position {
+    text-align: right;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
 .picture-frame {
   background-color: #424242;
   color: #ffffff;
-  margin-top: -3rem;
   padding: 1.2rem;
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+}
+
+@media (min-width: 992px) {
+  .picture-frame {
+    margin-top: -3rem;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
 }
 
 .picture-frame img {
   margin-bottom: 1.2rem;
+}
+
+.push-pin {
+  position: relative;
+  z-index: 100;
+  top: -40px;
+  right: 10px;
 }
 
 .me-pic {
@@ -233,11 +278,9 @@ footer i:hover {
   height: 300px;
 }
 
-.push-pin {
-  position: relative;
-  z-index: 100;
-  top: -40px;
-  right: 10px;
+.shrink {
+  -webkit-transform: scale(0.5);
+  transform: scale(0.8);
 }
 
 #projects {
