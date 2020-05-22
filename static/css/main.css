@@ -213,8 +213,31 @@ footer i:hover {
   padding: 8rem 0 10rem;
 }
 
+.picture-frame {
+  background-color: #424242;
+  color: #ffffff;
+  margin-top: -3rem;
+  padding: 1.2rem;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+}
+
+.picture-frame img {
+  margin-bottom: 1.2rem;
+}
+
 .me-pic {
   border-bottom: 1px solid black;
+  margin-top: -5.6rem;
+  width: 300px;
+  height: 300px;
+}
+
+.push-pin {
+  position: relative;
+  z-index: 100;
+  top: -40px;
+  right: 10px;
 }
 
 #projects {
