@@ -163,12 +163,12 @@ footer i {
   font-size: 1.6rem;
   margin: .4rem .6rem;
   color: #ffd43b;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 footer i:hover {
-  color: #646464;
+  color: #ffffff;
 }
 
 .label {
@@ -182,20 +182,42 @@ footer i:hover {
 }
 
 .btn-see-more {
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  -webkit-transition: .4s;
-  transition: .4s;
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffe873;
   font-weight: 700;
 }
 
 .btn-see-more:hover {
+  color: #ffffff;
+}
+
+.btn-send {
+  color: #ffffff;
+  background-color: #4b8bbe;
+  border: 1px solid #4b8bbe;
+  font-weight: 700;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn-send:hover {
   background-color: #ffffff;
   color: #4b8bbe;
 }
 
-.hr-light {
-  border-top: 1px solid rgba(250, 250, 250, 0.4);
+.btn-project-link {
+  background-color: #ffffff;
+  color: #4b8bbe;
+  border: 1px solid #ffffff;
+  font-weight: 700;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn-project-link:hover {
+  background-color: #4b8bbe;
+  color: #ffffff;
 }
 
 .inline-link {
