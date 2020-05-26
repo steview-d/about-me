@@ -1,6 +1,14 @@
 // -------------------------------------------------- All Sections //
 
 .inline-link {
+    background-color: rgba(255,232,115,0.5);
+    border-bottom: 1px solid $lapis-lazuli;
+    border-top: 1px solid $lapis-lazuli;
+    padding: 0 4px 3px 4px;
+    white-space: nowrap;
+}
+
+.inline-link-dark {
     color: $light-grey;
     transition: 0.3s;
 

@@ -186,6 +186,7 @@ footer i:hover {
   border: 1px solid #ffffff;
   -webkit-transition: .4s;
   transition: .4s;
+  font-weight: 700;
 }
 
 .btn-see-more:hover {
@@ -198,12 +199,20 @@ footer i:hover {
 }
 
 .inline-link {
+  background-color: rgba(255, 232, 115, 0.5);
+  border-bottom: 1px solid #306998;
+  border-top: 1px solid #306998;
+  padding: 0 4px 3px 4px;
+  white-space: nowrap;
+}
+
+.inline-link-dark {
   color: #dcdcdc;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.inline-link:hover {
+.inline-link-dark:hover {
   text-decoration: none;
   color: #ffffff;
 }
