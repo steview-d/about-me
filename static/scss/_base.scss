@@ -18,12 +18,12 @@ $dark-grey: #424242;
 
 // - Colors - Python //
 $granite-grey: #646464;
-$cyan-blue-azure: #4b8bbe;
-$lapis-lazuli: #306998;
+$light-blue: #4b8bbe; // cyan-blue-azure
+$dark-blue: #306998; // lapis-lazuli
 $shandy: #ffe873;
 $sunglow: #ffd43b;
 
-// - Colors - Other Tech //
+// - Colors - Tech //
 $html-red: #e44d26;
 $css-blue: #264de4;
 $sass-pink: #cd6799;
@@ -119,6 +119,10 @@ h2 {
     font-size: 3rem;
     color: $granite-grey;
     margin-bottom: 3rem;
+
+    @media (min-width: 768px) {
+        margin-bottom: 4rem;
+    }
 }
 
 h3 {

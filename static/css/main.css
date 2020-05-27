@@ -48,6 +48,12 @@ h2 {
   margin-bottom: 3rem;
 }
 
+@media (min-width: 768px) {
+  h2 {
+    margin-bottom: 4rem;
+  }
+}
+
 h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -60,8 +66,16 @@ h3 {
   color: #ffffff;
 }
 
+.header-black {
+  color: #000000;
+}
+
 .header-grey {
   color: #646464;
+}
+
+.header-dark-grey {
+  color: #424242;
 }
 
 .header-blue {
@@ -409,10 +423,6 @@ footer i:hover {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
-}
-
-#projects h2 {
-  color: #ffffff;
 }
 
 #projects h3 {

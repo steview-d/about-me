@@ -75,26 +75,26 @@ footer {
 
 .btn-send {
     color: $white;
-    background-color: $cyan-blue-azure;
-    border: 1px solid $cyan-blue-azure;
+    background-color: $light-blue;
+    border: 1px solid $light-blue;
     font-weight: 700;
     transition: .3s;
 
     &:hover {
         background-color: $white;
-        color: $cyan-blue-azure;
+        color: $light-blue;
     }
 }
 
 .btn-project-link {
     background-color: $white;
-    color: $cyan-blue-azure;
+    color: $light-blue;
     border: 1px solid $white;
     font-weight: 700;
     transition: .3s;
 
     &:hover {
-        background-color: $cyan-blue-azure;
+        background-color: $light-blue;
         color: $white;
     }
 }

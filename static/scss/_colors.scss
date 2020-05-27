@@ -4,12 +4,20 @@
     color: $white;
 }
 
+.header-black {
+    color: $black;
+}
+
 .header-grey {
     color: $granite-grey;
 }
 
+.header-dark-grey {
+    color: $dark-grey;
+}
+
 .header-blue {
-    color: $cyan-blue-azure;
+    color: $light-blue;
 }
 
 .header-yellow {
@@ -28,7 +36,7 @@
 }
 
 .bg-py-blue {
-    background-color: $cyan-blue-azure;
+    background-color: $light-blue;
 }
 
 .bg-html-red {
