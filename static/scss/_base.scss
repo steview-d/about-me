@@ -1,16 +1,16 @@
 // -------------------------------------------------- Import Fonts //
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Montserrat:wght@500;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Montserrat:wght@500;800&display=swap");
 
 // ----------------------------------------------------- Variables //
 
 // - Fonts - //
-$heading-text: 'Montserrat', sans-serif;
+$heading-text: "Montserrat", sans-serif;
 
 // - Colors - Standard //
 $white: #ffffff;
 $black: #000000;
+$bg-grey: #fafafa;
 $light-grey: #dcdcdc;
 $dark-grey: #424242;
 
@@ -31,18 +31,42 @@ $d3-orange: #faad1e;
 $bootstrap-purple: #7952b3;
 $django-green: #092e20;
 $postgresql-blue: #336791;
-$mongodb-green: #3fA037;
+$mongodb-green: #3fa037;
 
 // - Other - //
-$nav-height: 100px;
-
+$nav-height: 80px;
 
 // -------------------------------------------------------- Mixins //
 
 @mixin section-padding {
-    padding: 8rem 0 10rem;
+    padding: 7rem 0 9rem;
+    margin-top: -4rem;
+
+    @media (min-width: 768px) {
+        padding: 10rem 0 18rem;
+        margin-top: -8rem;
+    }
 }
 
+@mixin slanted-div {
+    // set slant for screen widths up to and inc standard HD res
+    $slant-hd: calc(100vw / 18);
+    -webkit-clip-path: polygon(0 0, 100% $slant-hd, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% $slant-hd, 100% 100%, 0 100%);
+
+    @media (min-width: 1921px) {
+        // adjust slant on screens wider than standard HD res
+        $slant-qhd: calc(100vw / 22);
+        -webkit-clip-path: polygon(0 0, 100% $slant-qhd, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% $slant-qhd, 100% 100%, 0 100%);
+    }
+
+    @media (min-width: 2561px) {
+        // remove slanted edge on screens wider than qhd res
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
 
 // --------------------------------------------------------- Setup //
 
@@ -51,7 +75,7 @@ html {
 }
 
 body {
-    background-color: rgba(250, 250, 250, 0.9);
+    background-color: $bg-grey;
 }
 
 a {
@@ -67,7 +91,6 @@ a {
     display: none;
 }
 
-
 // -------------------------------------------------------- Resets //
 
 h1 {
@@ -76,7 +99,7 @@ h1 {
     font-size: 3.2rem;
     word-wrap: break-word;
 
-    @media (min-width:380px) {
+    @media (min-width: 380px) {
         font-size: 4rem;
     }
     @media (min-width: 576px) {
@@ -99,4 +122,3 @@ h3 {
     color: $granite-grey;
     margin-bottom: 1rem;
 }
-

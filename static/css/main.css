@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: rgba(250, 250, 250, 0.9);
+  background-color: #fafafa;
 }
 
 a {
@@ -120,7 +120,7 @@ h3 {
 }
 
 .bg-mongodb-green {
-  background-color: #3fA037;
+  background-color: #3fa037;
 }
 
 .bg-django-green {
@@ -152,7 +152,7 @@ h3 {
 }
 
 .nav-spacer {
-  height: 100px;
+  height: 80px;
 }
 
 footer {
@@ -240,7 +240,15 @@ footer i:hover {
 }
 
 #hey {
-  padding: 5rem 0 8rem;
+  padding: 2rem 0 9rem;
+  margin-top: -4rem;
+}
+
+@media (min-width: 768px) {
+  #hey {
+    padding: 10rem 0 18rem;
+    margin-top: -8rem;
+  }
 }
 
 .gradient-text {
@@ -257,7 +265,36 @@ footer i:hover {
 }
 
 #about-me {
-  padding: 8rem 0 10rem;
+  padding: 7rem 0 9rem;
+  margin-top: -4rem;
+  -webkit-clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
+  background-color: #fafafa;
+}
+
+@media (min-width: 768px) {
+  #about-me {
+    padding: 10rem 0 18rem;
+    margin-top: -8rem;
+  }
+}
+
+@media (min-width: 1921px) {
+  #about-me {
+    -webkit-clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
+  }
+}
+
+@media (min-width: 2561px) {
+  #about-me {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+#about-me p {
+  z-index: -1000;
 }
 
 #about-me h2 {
@@ -276,14 +313,14 @@ footer i:hover {
 
 .picture-position {
   text-align: center;
-  margin-top: -3rem;
+  margin: -3rem 0 -2rem;
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
 }
 
 @media (min-width: 400px) {
   .picture-position {
-    margin-top: -2rem;
+    margin: -2rem 0;
     -webkit-transform: scale(0.7);
             transform: scale(0.7);
   }
@@ -291,7 +328,7 @@ footer i:hover {
 
 @media (min-width: 576px) {
   .picture-position {
-    margin-top: -1rem;
+    margin: -1rem 0 0;
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
@@ -345,10 +382,36 @@ footer i:hover {
 }
 
 #projects {
-  padding: 8rem 0 10rem;
+  padding: 7rem 0 9rem;
+  margin-top: -4rem;
+  -webkit-clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
 }
 
-#projects h2, #projects h3, #projects p {
+@media (min-width: 768px) {
+  #projects {
+    padding: 10rem 0 18rem;
+    margin-top: -8rem;
+  }
+}
+
+@media (min-width: 1921px) {
+  #projects {
+    -webkit-clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
+  }
+}
+
+@media (min-width: 2561px) {
+  #projects {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+#projects h2,
+#projects h3,
+#projects p {
   color: #ffffff;
 }
 
@@ -388,7 +451,31 @@ footer i:hover {
 }
 
 #skills {
-  padding: 8rem 0 10rem;
+  padding: 7rem 0 9rem;
+  margin-top: -4rem;
+  -webkit-clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
+}
+
+@media (min-width: 768px) {
+  #skills {
+    padding: 10rem 0 18rem;
+    margin-top: -8rem;
+  }
+}
+
+@media (min-width: 1921px) {
+  #skills {
+    -webkit-clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
+  }
+}
+
+@media (min-width: 2561px) {
+  #skills {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 }
 
 .logo-wrapper {
@@ -449,7 +536,32 @@ footer i:hover {
 }
 
 #say-hi {
-  padding: 8rem 0 10rem;
+  padding: 7rem 0 9rem;
+  margin-top: -4rem;
+  -webkit-clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
+  background-color: #fafafa;
+}
+
+@media (min-width: 768px) {
+  #say-hi {
+    padding: 10rem 0 18rem;
+    margin-top: -8rem;
+  }
+}
+
+@media (min-width: 1921px) {
+  #say-hi {
+    -webkit-clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
+  }
+}
+
+@media (min-width: 2561px) {
+  #say-hi {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 }
 
 .email-box {
