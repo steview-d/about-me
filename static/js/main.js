@@ -6,9 +6,9 @@ $(document).ready(function () {
     });
 
     // - See More Projects Button - //
-    $("#btn-see-more").on("click", function () {
+    $("#btn-show-more").on("click", function () {
         $("#hidden-projects").slideToggle(500, function () {
-            $("#btn-see-more").toggleHtml(
+            $("#btn-show-more").toggleHtml(
                 "Show More Projects",
                 'Show Fewer Projects'
             );

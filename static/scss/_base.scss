@@ -1,11 +1,13 @@
 // -------------------------------------------------- Import Fonts //
 
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Montserrat:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lekton:wght@400;700&family=Montserrat:wght@800&family=Raleway:wght@400;500&display=swap");
 
 // ----------------------------------------------------- Variables //
 
 // - Fonts - //
 $heading-text: "Montserrat", sans-serif;
+$standard-text: "Raleway", sans-serif;
+$project-text: "Lekton", sans-serif;
 
 // - Colors - Standard //
 $white: #ffffff;
@@ -38,7 +40,10 @@ $nav-height: 80px;
 
 // -------------------------------------------------------- Mixins //
 
-@mixin section-padding {
+// set margin & padding for each section
+// negative margins used to hide revealed background from using
+// slanted div sections
+@mixin section-spacing {
     padding: 7rem 0 9rem;
     margin-top: -4rem;
 
@@ -75,7 +80,8 @@ html {
 }
 
 body {
-    background-color: $bg-grey;
+    font-family: $standard-text;
+    font-weight: 400;
 }
 
 a {
@@ -116,8 +122,8 @@ h2 {
 }
 
 h3 {
-    font-family: $heading-text;
-    font-weight: 800;
+    font-family: $standard-text;
+    font-weight: 500;
     font-size: 2rem;
     color: $granite-grey;
     margin-bottom: 1rem;

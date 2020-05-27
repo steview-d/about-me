@@ -61,11 +61,12 @@ footer {
 
 // ------------------------------------------------------- buttons //
 
-.btn-see-more {
+.btn-show-more {
     background-color: $black;
     border: 1px solid $black;
     color: $shandy;
     font-weight: 700;
+    margin-top: 5rem;
 
     &:hover {
         color: $white;
