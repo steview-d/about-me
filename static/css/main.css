@@ -220,15 +220,15 @@ footer i:hover {
 }
 
 .btn-show-more {
-  background-color: #000000;
-  border: 1px solid #000000;
-  color: #ffe873;
+  background-color: #424242;
+  border: 1px solid #424242;
+  color: #ffffff;
   font-weight: 700;
   margin-top: 5rem;
 }
 
 .btn-show-more:hover {
-  color: #ffffff;
+  color: #ffe873;
 }
 
 .btn-send {

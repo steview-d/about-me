@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    
+    // - Function to toggle html content - //
     $.fn.extend({
         toggleHtml: function (a, b) {
             return this.html(this.html() == b ? a : b);
@@ -15,6 +17,7 @@ $(document).ready(function () {
         });
     });
 
+    // - Initialise tippy tooltips - //
     tippy("[data-tippy-content]");
 
     // - Insert Copyright Year - //

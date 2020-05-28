@@ -84,14 +84,14 @@ footer {
 // ------------------------------------------------------- buttons //
 
 .btn-show-more {
-    background-color: $black;
-    border: 1px solid $black;
-    color: $shandy;
+    background-color: $dark-grey;
+    border: 1px solid $dark-grey;
+    color: $white;
     font-weight: 700;
     margin-top: 5rem;
 
     &:hover {
-        color: $white;
+        color: $shandy;
     }
 }
 
