@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    
     // - Function to toggle html content - //
     $.fn.extend({
         toggleHtml: function (a, b) {
@@ -9,6 +8,13 @@ $(document).ready(function () {
 
     // - See More Projects Button - //
     $("#btn-show-more").on("click", function () {
+        // scroll back to start of projects section
+        // when hiding additional projects
+        if ($("#btn-show-more").text() === "Show Fewer Projects") {
+            const elemProjects = document.getElementById("projects");
+            elemProjects.scrollIntoView();
+        }
+
         $("#hidden-projects").slideToggle(500, function () {
             $("#btn-show-more").toggleHtml(
                 "Show More Projects",
