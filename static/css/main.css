@@ -144,26 +144,50 @@ h3 {
 
 .navbar ul li {
   padding: 0 0.2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
 }
 
 .navbar ul i {
-  color: grey;
+  color: #dcdcdc;
   font-size: 0.4rem;
-  margin-top: 18px;
+  margin-top: 1.5rem;
 }
 
-.navbar-toggler {
+.qnavbar-dark {
+  background-color: #424242;
+  opacity: .9;
+}
+
+.qnavbar-dark .nav-link {
+  color: #dcdcdc;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.qnavbar-dark .nav-link:hover {
+  color: #ffd43b;
+}
+
+.qnavbar-dark .nav-link.active {
+  color: #ffd43b;
+}
+
+.qnavbar-dark .navbar-toggler {
   border: none;
   padding: 0;
   font-size: 2rem;
+  color: #ffd43b;
 }
 
-.navbar-toggler:focus {
+.qnavbar-dark .navbar-toggler:focus {
   outline: none;
 }
 
 .navbar-collapse {
-  text-align: right;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .nav-spacer {
@@ -171,16 +195,16 @@ h3 {
 }
 
 footer {
-  padding: .6rem;
+  padding: 0.6rem;
   font-family: "Lekton", sans-serif;
 }
 
 footer i {
   font-size: 1.6rem;
-  margin: .4rem .6rem;
+  margin: 0.4rem 0.6rem;
   color: #ffd43b;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 footer i:hover {
@@ -214,8 +238,8 @@ footer i:hover {
   background-color: #4b8bbe;
   border: 1px solid #4b8bbe;
   font-weight: 700;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .btn-send:hover {
@@ -228,8 +252,8 @@ footer i:hover {
   color: #4b8bbe;
   border: 1px solid #ffffff;
   font-weight: 700;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .btn-project-link:hover {

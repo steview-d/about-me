@@ -4,27 +4,54 @@
 .navbar ul {
     li {
         padding: 0 0.2rem;
+        font-family: $nav-text;
+        font-weight: 500;
+        font-size: 1.6rem;
     }
 
     i {
-        color: grey;
+        color: $light-grey;
         font-size: 0.4rem;
-        margin-top: 18px;
+        margin-top: 1.5rem;
     }
 }
 
-.navbar-toggler {
-    border: none;
-    padding: 0;
-    font-size: 2rem;
+.qnavbar-dark {
+        background-color: $dark-grey;
+        opacity: .9;
 
-    &:focus {
-        outline: none;
+    // .navbar-nav {
+        // background-color: red;
+
+        .nav-link {
+            color: $light-grey;
+            transition: 0.2s;
+
+            &:hover {
+                color: $sunglow;
+            }
+        }
+
+        .nav-link.active {
+            color: $sunglow;
+        }
+    // }
+
+    .navbar-toggler {
+        border: none;
+        padding: 0;
+        font-size: 2rem;
+        color: $sunglow;
+
+        &:focus {
+            outline: none;
+        }
     }
 }
 
 .navbar-collapse {
-    text-align: right;
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 .nav-spacer {
@@ -34,14 +61,14 @@
 // -------------------------------------------------------- footer //
 
 footer {
-    padding: .6rem;
+    padding: 0.6rem;
     font-family: $project-text;
 
     i {
         font-size: 1.6rem;
-        margin: .4rem .6rem;
+        margin: 0.4rem 0.6rem;
         color: $sunglow;
-        transition: .3s;
+        transition: 0.3s;
 
         &:hover {
             color: $white;
@@ -79,7 +106,7 @@ footer {
     background-color: $light-blue;
     border: 1px solid $light-blue;
     font-weight: 700;
-    transition: .3s;
+    transition: 0.3s;
 
     &:hover {
         background-color: $white;
@@ -92,7 +119,7 @@ footer {
     color: $light-blue;
     border: 1px solid $white;
     font-weight: 700;
-    transition: .3s;
+    transition: 0.3s;
 
     &:hover {
         background-color: $light-blue;
