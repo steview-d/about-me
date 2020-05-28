@@ -144,14 +144,22 @@ h3 {
 
 .navbar {
   background-color: #424242;
-  opacity: 0.9;
+  opacity: 0.92;
 }
 
 .navbar li {
-  padding: 0 0.2rem;
-  font-family: "Raleway", sans-serif;
+  padding: 0 .8rem;
+  font-family: "Lekton", sans-serif;
   font-weight: 500;
   font-size: 1.4rem;
+}
+
+.navbar li .nav-link {
+  color: #ffffff;
+}
+
+.navbar li .nav-link:hover {
+  font-weight: 700;
 }
 
 .navbar i {
@@ -160,18 +168,8 @@ h3 {
   margin-top: 1.3rem;
 }
 
-.navbar .nav-link {
-  color: #dcdcdc;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
-.navbar .nav-link:hover {
-  color: #ffd43b;
-}
-
 .navbar .nav-link.active {
-  color: #ffd43b;
+  color: #ffe873;
 }
 
 .navbar .navbar-toggler i {
@@ -183,6 +181,11 @@ h3 {
 
 .navbar .navbar-toggler:focus {
   outline: none;
+}
+
+.nav-text-effect {
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
 .nav-spacer {

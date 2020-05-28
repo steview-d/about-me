@@ -2,13 +2,21 @@
 
 .navbar {
     background-color: $dark-grey;
-    opacity: 0.9;
+    opacity: 0.92;
 
     li {
-        padding: 0 0.2rem;
+        padding: 0 .8rem;
         font-family: $nav-text;
         font-weight: 500;
         font-size: 1.4rem;
+
+        .nav-link {
+            color: $white;
+
+            &:hover {
+                font-weight: 700;
+            }
+        }
     }
 
     i {
@@ -17,17 +25,8 @@
         margin-top: 1.3rem;
     }
 
-    .nav-link {
-        color: $light-grey;
-        transition: 0.2s;
-
-        &:hover {
-            color: $sunglow;
-        }
-    }
-
     .nav-link.active {
-        color: $sunglow;
+        color: $shandy;
     }
 
     .navbar-toggler {
@@ -42,6 +41,11 @@
             outline: none;
         }
     }
+}
+
+.nav-text-effect {
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 .nav-spacer {
