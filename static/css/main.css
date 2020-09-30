@@ -302,8 +302,8 @@ footer i:hover {
 #about-me {
   padding: 7rem 0 9rem;
   margin-top: -4rem;
-  -webkit-clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
   background-color: #fafafa;
 }
 
@@ -316,8 +316,8 @@ footer i:hover {
 
 @media (min-width: 1921px) {
   #about-me {
-    -webkit-clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
   }
 }
 
@@ -419,8 +419,8 @@ footer i:hover {
 #projects {
   padding: 7rem 0 9rem;
   margin-top: -4rem;
-  -webkit-clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
 }
 
 @media (min-width: 768px) {
@@ -432,8 +432,8 @@ footer i:hover {
 
 @media (min-width: 1921px) {
   #projects {
-    -webkit-clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
   }
 }
 
@@ -494,8 +494,8 @@ footer i:hover {
 #skills {
   padding: 7rem 0 9rem;
   margin-top: -4rem;
-  -webkit-clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
 }
 
 @media (min-width: 768px) {
@@ -507,8 +507,8 @@ footer i:hover {
 
 @media (min-width: 1921px) {
   #skills {
-    -webkit-clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
   }
 }
 
@@ -556,6 +556,13 @@ footer i:hover {
 
 .tech-logo img {
   height: 30px;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+.tech-logo img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media (min-width: 400px) {
@@ -579,8 +586,8 @@ footer i:hover {
 #say-hi {
   padding: 7rem 0 9rem;
   margin-top: -4rem;
-  -webkit-clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% calc(100vw / 18), 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
   background-color: #fafafa;
 }
 
@@ -593,8 +600,8 @@ footer i:hover {
 
 @media (min-width: 1921px) {
   #say-hi {
-    -webkit-clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% calc(100vw / 22), 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 calc(100vw / 18), 100% 0, 100% 100%, 0 100%);
   }
 }
 

@@ -57,14 +57,14 @@ $nav-height: 100px;
 @mixin slanted-div {
     // set slant for screen widths up to and inc standard HD res
     $slant-hd: calc(100vw / 18);
-    -webkit-clip-path: polygon(0 0, 100% $slant-hd, 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% $slant-hd, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 $slant-hd, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 $slant-hd, 100% 0, 100% 100%, 0 100%);
 
     @media (min-width: 1921px) {
         // adjust slant on screens wider than standard HD res
         $slant-qhd: calc(100vw / 22);
-        -webkit-clip-path: polygon(0 0, 100% $slant-qhd, 100% 100%, 0 100%);
-        clip-path: polygon(0 0, 100% $slant-qhd, 100% 100%, 0 100%);
+        -webkit-clip-path: polygon(0 $slant-hd, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 $slant-hd, 100% 0, 100% 100%, 0 100%);
     }
 
     @media (min-width: 2561px) {
