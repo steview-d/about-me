@@ -240,6 +240,16 @@
     @include section-spacing;
     @include slanted-div;
     background-color: $bg-grey;
+
+    .tel-no {
+        border-bottom: 1px solid black;
+
+        @media screen and (max-width:767px) {
+            display: block;
+            margin-top: 3px;
+            border: none;
+        }
+    }
 }
 
 .email-box {
