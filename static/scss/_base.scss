@@ -45,7 +45,7 @@ $nav-height: 100px;
 // negative margins used to hide revealed background from using
 // slanted div sections
 @mixin section-spacing {
-    padding: 7rem 0 9rem;
+    padding: 5rem 0 9rem;
     margin-top: -4rem;
 
     @media (min-width: 768px) {
